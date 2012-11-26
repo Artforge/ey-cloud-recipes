@@ -5,7 +5,7 @@
 #end
 
 # uncomment to turn on thinking sphinx/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
-# require_recipe "sphinx"
+require_recipe "sphinx"
 
 # uncomment to use the collectd recipe. See cookbooks/collectd/readme.md for documentation.
 # require_recipe "collectd"
@@ -41,7 +41,7 @@
 #require_recipe "mongodb"
 
 #uncomment to run the resque recipe
-# require_recipe "resque"
+require_recipe "resque"
 
 #uncomment to run redis.yml recipe
 # require_recipe "redis-yml"
